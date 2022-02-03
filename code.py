@@ -3,7 +3,7 @@
 
 #1
 import pandas as pd
-df=pd.read_csv(r'E:\Sem 3\IC272 Data Science 3\Lab 1\landslide_data3.csv')
+df=pd.read_csv(r'E:\landslide_dataset.csv')
 pd.set_option('display.max_columns',50)        #to display all the columns
 print(df.describe())                  #gives statistical values of the data
 print(df[df.columns[2:]].mode())      #for finding out mode
