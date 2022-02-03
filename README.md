@@ -2,17 +2,16 @@
 Data visualization and statistics from data.
 I have taken the IIT Mandi landslide data-set as a csv file. This data-set contains the readings from various sensors installed at 10 locations around the IIT Mandi campus. These sensors give the details about various factors like temperature, humidity, pressure etc. 
 
-The CSV file contains following attributes:
-• dates: date of collection of data.
-• stationid: Indicates the location of the sensor.
-• temperature: Atmospheric temperature around the sensor in Celsius.
-• humidity: The concentration of water vapor present in the air. It is a relative humidity (in %).
-• pressure: Atmospheric pressure in millibars (mb).
-• rain: Measure of rainfall in ml.
-• lightavgw/o0: The average light throughout the daytime (in lux units).
-• lightmax: The maximum lux count by the sensor.
-• moisture: indicates the water stored in the soil (measured between 0 to 100 percent).
-
+The CSV file contains following attributes:\
+• dates: date of collection of data.\
+• stationid: Indicates the location of the sensor.\
+• temperature: Atmospheric temperature around the sensor in Celsius.\
+• humidity: The concentration of water vapor present in the air. It is a relative humidity (in %).\
+• pressure: Atmospheric pressure in millibars (mb).\
+• rain: Measure of rainfall in ml.\
+• lightavgw/o0: The average light throughout the daytime (in lux units).\
+• lightmax: The maximum lux count by the sensor.\
+• moisture: indicates the water stored in the soil (measured between 0 to 100 percent).\
 
 I have written a python program (with pandas) to read the given data and display following:
 
