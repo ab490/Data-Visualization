@@ -11,7 +11,8 @@ The CSV file contains following attributes:\
 • rain: Measure of rainfall in ml.\
 • lightavgw/o0: The average light throughout the daytime (in lux units).\
 • lightmax: The maximum lux count by the sensor.\
-• moisture: indicates the water stored in the soil (measured between 0 to 100 percent).\
+• moisture: indicates the water stored in the soil (measured between 0 to 100 percent).
+
 
 I have written a python program (with pandas) to read the given data and display following:
 
